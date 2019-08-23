@@ -2,17 +2,13 @@ import * as React from 'react';
 import { storiesOf } from '@storybook/react';
 import { ThemeProvider } from 'styled-components'
 import { text, boolean } from '@storybook/addon-knobs';
+import { action } from '@storybook/addon-actions';
 import classicTheme from '../../themes/classicTheme';
 import { Button } from '..';
 
 storiesOf('Button', module)
-    .add('Enabled', () => (
+    .add('Dense', () => (
         <ThemeProvider theme={classicTheme}>
-            <Button disabled={boolean('Disabled', false)}>{text('Label', 'Hello')}</Button>
-        </ThemeProvider>
-    ))
-    .add('Disabled', () => (
-        <ThemeProvider theme={classicTheme}>
-            <Button disabled={true}>Hello</Button>
+            <Button onClick={action('onClick')} disabled={boolean('Disabled', false)}>{text('Label', 'Hello')}</Button>
         </ThemeProvider>
     ))

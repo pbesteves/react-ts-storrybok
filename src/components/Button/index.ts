@@ -1,4 +1,3 @@
-// import * as React from 'react';
 import styled from 'styled-components';
 
 export interface ButtonProps {
@@ -9,7 +8,7 @@ export interface ButtonProps {
 
 
 const Button = styled.button<ButtonProps>`
-    background: ${props => props.disabled ? props.theme.colors.secondary : props.theme.colors.main};
+    background: ${props => props.disabled ? 'gray' : props.theme.colors.main};
     color: white;
     padding: 9px 18px;
     cursor: ${props => props.disabled ? 'not-allowed' : 'pointer'};
@@ -19,6 +18,8 @@ const Button = styled.button<ButtonProps>`
     padding-left: ${props => props.theme.buttonPadding};
     padding-right: ${props => props.theme.buttonPadding};
     border-radius: ${props => props.theme.borderRadius};
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    outline: ${props => props.theme.colors.main};
     `;
 
 Button.defaultProps = {

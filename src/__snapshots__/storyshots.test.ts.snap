@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button Dense 1`] = `
+<button
+  className="sc-bdVaJa eIVUyR"
+  disabled={false}
+  onClick={[Function]}
+>
+  Hello
+</button>
+`;
+
+exports[`Storyshots Input Outlined 1`] = `
+Array [
+  <input
+    className="sc-bwzfXH oerZ"
+    disabled={false}
+    id="input-text"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyUp={[Function]}
+    required={false}
+    type="text"
+    value=""
+  />,
+  <label
+    className="sc-htpNat eyiySY"
+    disabled={false}
+    htmlFor="input-text"
+    required={false}
+  >
+    Label
+  </label>,
+]
+`;

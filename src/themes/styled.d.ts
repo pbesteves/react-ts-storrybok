@@ -6,7 +6,7 @@ declare module 'styled-components' {
     borderRadius: string
 
     buttonPadding: string
-
+    inputPadding: string
     colors: {
       main: string
       secondary: string
