@@ -30,7 +30,7 @@ const Label = styled.label<LabelProps>`
 `;
 
 Label.defaultProps = {
-    children: null,
-}
+  children: null,
+};
 
 export default Label;
