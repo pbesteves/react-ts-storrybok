@@ -1,0 +1,6 @@
+/config/*
+/.storybook/*
+/scripts/*
+src/__snapshots__/*
+yarn.lock
+package-lock.json

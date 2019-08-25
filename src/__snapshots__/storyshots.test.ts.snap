@@ -2,7 +2,7 @@
 
 exports[`Storyshots Button Dense 1`] = `
 <button
-  className="sc-bdVaJa eIVUyR"
+  className="sc-bdVaJa blzVQf"
   disabled={false}
   onClick={[Function]}
 >
@@ -16,10 +16,6 @@ Array [
     className="sc-bwzfXH oerZ"
     disabled={false}
     id="input-text"
-    onBlur={[Function]}
-    onChange={[Function]}
-    onFocus={[Function]}
-    onKeyUp={[Function]}
     required={false}
     type="text"
     value=""
