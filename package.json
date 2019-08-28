@@ -85,6 +85,7 @@
     "build": "node scripts/build.js",
     "test": "jest",
     "storybook": "start-storybook -p 9001 -c .storybook",
+    "storybook:build": "build-storybook -c .storybook -o .out",
     "lint": "yarn run eslint '**/*.tsx' '**/*.ts' --fix"
   },
   "browserslist": {
